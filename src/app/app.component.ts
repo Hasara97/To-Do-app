@@ -6,5 +6,32 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'todo-app';
+  title = 'My To-Do List';
+  todos = [
+    {
+      label: 'Bring Milk',
+      done: false,
+      priority: 3
+    },
+
+    {
+      label: 'Wacth Game of Thrones',
+      done: true,
+      priority: 1
+    },
+
+    {
+      label: 'Pay the mobile bill',
+      done: true,
+      priority: 2
+    },
+
+    {
+      label: 'Clean the room',
+      done: false,
+      priority: 3
+    },
+
+  ];
+
 }
